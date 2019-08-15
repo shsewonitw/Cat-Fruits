@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 26d8e24fddc49ce4c91572c53ef35b48
+timeCreated: 1510119196
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - halfApple: {fileID: 1497385919849678, guid: 3d50ca9c77625164889ff525eea751df,
+      type: 2}
+  - halfKiwi: {fileID: 1489969539647938, guid: 09298397feda82942bf71bf91651c7df, type: 2}
+  - halfStrawberry: {fileID: 1032099281756872, guid: 2231cbe8cf4d312439d0cb333783a3fd,
+      type: 2}
+  - tr: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
