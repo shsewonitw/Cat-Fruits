@@ -3,7 +3,8 @@
 var walkSpeed : float = 3.0;
 var gravity : float = 20.0;
 var jumpSpeed : float = 8.0;
-var runSpeed : float = 0.2;
+// Speed multiplier when running
+var runSpeed : float = 2.0;
 var velocity : Vector3;
 var jumpSound : AudioClip;
 
@@ -28,8 +29,8 @@ function Update () {
             if(Input.GetKey(KeyCode.LeftShift))
             {
                 GetComponent.<Animation>().CrossFade("Run",0.1);
-                
                 transform.LookAt(transform.position + velocity);
+                velocity *= runSpeed;
             }
             else
             {
